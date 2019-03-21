@@ -12,3 +12,11 @@ JavaScript React "storybook" Demo
 5. 手动添加了一个Hello组件对应的story: `stories/hello.stories.js`，自动显示出来
 
 简单使用一下，感觉还不错。
+
+注意：
+
+有时候会报`Error: Cannot find module '@emotion/core/package.json'`的错误，解决办法是：
+
+```
+yarn add -D @storybook/theming
+```
